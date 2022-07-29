@@ -1,5 +1,5 @@
-let nome;
-let email;
-let profissao;
-let idade;
-let lugarQueSonhoConhecer;
+let nome = "Rafael Domenici";
+let email = "rafaeldomenici@hotmail.com";
+let profissao = "Professor";
+let idade = 32;
+let lugarQueSonhoConhecer = "Austrália";
