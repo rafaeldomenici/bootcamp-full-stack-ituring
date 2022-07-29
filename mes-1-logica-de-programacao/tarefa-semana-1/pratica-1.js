@@ -4,8 +4,8 @@ let profissao = "Professor";
 let idade = 32;
 let lugarQueSonhoConhecer = "Austrália";
 
-console.log("Nome:", nome);
-console.log("Email:", email);
-console.log("Profissão:", profissao);
-console.log("Idade:", idade);
-console.log("Lugar que sonho conhecer:", lugarQueSonhoConhecer);
+console.log(typeof nome);
+console.log(typeof email);
+console.log(typeof profissao);
+console.log(typeof idade);
+console.log(typeof lugarQueSonhoConhecer);
