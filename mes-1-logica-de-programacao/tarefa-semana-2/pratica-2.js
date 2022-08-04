@@ -2,11 +2,7 @@ function mensagemEmail1(nome) {
 console.log(`Olá, ${nome}!`);
 }
 
-function mensagemEmail2(
-  NomeDoProduto,
-  NomeDaPessoaQueRecebeuOProduto,
-  EnderecoDeEntrega
-) {
+function mensagemEmail2(NomeDoProduto,NomeDaPessoaQueRecebeuOProduto,EnderecoDeEntrega) {
   console.log(`Fizemos a entrega do produto ${NomeDoProduto} no endereço ${EnderecoDeEntrega} com sucesso!
 
 O seu produto foi recebido por: ${NomeDaPessoaQueRecebeuOProduto}
