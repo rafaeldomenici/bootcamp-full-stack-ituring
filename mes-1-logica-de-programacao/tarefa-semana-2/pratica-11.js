@@ -27,4 +27,3 @@ function corFormatoRGB(cor) {
   }
 
 }
-

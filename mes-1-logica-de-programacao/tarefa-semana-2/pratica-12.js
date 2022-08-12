@@ -1,24 +1,27 @@
 function exibirDiaDaSemana(dia) {
   switch (dia) {
     case 1:
-      return "Segunda";
+      return "Segunda"; 
     case 2:
-      return "Terça";
+      return "Terça";  
     case 3:
-      return "Quarta";
+      return "Quarta";  
     case 4:
-      return "Quinta";
+      return "Quinta";   
     case 5:
-      return "Sexta";
+      return "Sexta";  
     case 6:
       return "Sábado";
     case 7:
-      return "Domingo";
+      return "Domingo"; 
     default:
       return `O número ${dia} não é válido para dia de semana`;
 
   }
 
 }
+
+
+
 
 

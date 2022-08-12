@@ -16,3 +16,5 @@ function traduzir(idioma) {
 
 }
 
+
+

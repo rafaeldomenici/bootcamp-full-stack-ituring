@@ -8,9 +8,14 @@ function maiorEntre3(numero1,numero2,numero3) {
   else if (numero2 < numero3) {
     console.log(numero3);
   }
+  else if (numero2 == numero3){
+    console.log(numero2);
+  }
   else {
-    console.log(numero1);
+    console.log(numero3);
   }
 
 }
+
+
 
