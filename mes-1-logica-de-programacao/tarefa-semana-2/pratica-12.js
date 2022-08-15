@@ -14,10 +14,10 @@ function exibirDiaDaSemana(dia) {
       return "Sábado";
     case 7:
       return "Domingo"; 
-    default:
-      return `O número ${dia} não é válido para dia de semana`;
-
+    
   }
+
+  console.log(`O número ${dia} não é válido para dia de semana`)
 
 }
 
