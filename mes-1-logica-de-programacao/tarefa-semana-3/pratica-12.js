@@ -14,4 +14,22 @@ function grupos(lista) {
 
 }
 
-grupos(["Anderson Luz", "Fabio Vechia", "Claudia Lopes", "Rafael Alves", "Maria Mansano", "Jairo Ferreira", "Vitor Ribeiro"])
+//Solução 2
+function grupos2(lista) {
+  let quantgrupos = parseInt(lista.length/2);
+  let j = 0;
+  
+  for (let i = 0; i < quantgrupos; i++) {
+    
+    if(i == (quantgrupos - 1) && lista.length % 2 != 0 )
+      console.log(`Grupo ${i+1}: ${lista.slice(j,j+3)}`);
+    else
+      console.log(`Grupo ${i+1}: ${lista.slice(j,j+2)}`);
+    j += 2
+    
+  }
+
+}
+
+
+grupos2(["Anderson Luz", "Fabio Vechia", "Claudia Lopes", "Rafael Alves", "Maria Mansano", "Jairo Ferreira", "Vitor Ribeiro"])
