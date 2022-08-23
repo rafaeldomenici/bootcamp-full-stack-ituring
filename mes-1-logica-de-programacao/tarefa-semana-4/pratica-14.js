@@ -5,7 +5,7 @@ function exibirMedia(obj) {
     somaNotas += item.nota;
   }
 
-  mediaAvaliacoes = soma/obj.avaliações.length;
+  mediaAvaliacoes = somaNotas/obj.avaliações.length;
   console.log(`A média de avaliações do restaurante ${obj.restaurante} foi ${mediaAvaliacoes.toFixed(2)}`);
 
 
